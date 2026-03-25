@@ -40,9 +40,9 @@ function About() {
                 <div className='max-w-[1100px] mx-auto grid md:grid-cols-[1fr_500px] gap-10 md:gap-10'>
                     <div className='w-full'  data-aos="fade-up" data-aos-duration="700">
                         <h1 className='text-6xl'>About me😁</h1>
-                        <p className='text-2xl text-[#707070] mt-8'>I’m Joshua Gavu but you can call me Josh, a product designer with over four(4) years of experience passionate about creating delightful and engaging user experiences that make the lives of humans easier.</p>
-                        <p className='text-2xl text-[#707070] mt-8'>When I am off the clock, you will find me sharing resources and templates in the Figma community to help fellow designers speed up their workflows.</p>
-                        <p className='text-2xl text-[#707070] mt-8'>I enjoy traveling and photography as they help to fuel my creativity and rejuvenation when burn out sets in.</p>
+                        <p className='text-2xl text-[#707070] mt-8'>I’m Joshua Gavu, but you can call me Josh, a product designer with over five (5) years of experience, passionate about creating delightful and engaging user experiences that make life easier for people.</p>
+                        <p className='text-2xl text-[#707070] mt-8'>When I’m off the clock, you’ll find me sharing resources and templates in the Figma community to help fellow designers work faster and more efficiently.</p>
+                        <p className='text-2xl text-[#707070] mt-8'>I have a strong passion for travel and photography—they inspire fresh perspectives, spark my creativity, and help with rejuvenation.</p>
                     </div>
                     <img className='w-full h-full object-cover rounded-2xl bg-[#f5f5f5]' src={joshua_about} alt='Joshua Gavu'  data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" />
                 </div>
