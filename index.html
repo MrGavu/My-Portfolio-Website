@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joshua Gavu | Product Designer</title>
+<meta name="description" content="Joshua Gavu — Product Designer, 6+ years building products people love. Building Dooinngs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ CUSTOM CURSOR DOT (desktop only, decorative) ============ -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <span class="nav-avatar">
+        <img src="assets/joshua.jpg" alt="Joshua Gavu" style="width:100%;height:100%;object-fit:cover;">
+      </span>
+      <span class="nav-name">Joshua <span class="muted">Gavu</span></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#top" class="nav-link is-active" data-nav>Portfolio</a>
+      <a href="#projects" class="nav-link" data-nav>Projects</a>
+      <a href="#reviews" class="nav-link" data-nav>Reviews</a>
+      <a href="#learning" class="nav-link" data-nav>Certifications</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="#top" data-nav-mobile>Portfolio</a>
+    <a href="#projects" data-nav-mobile>Projects</a>
+    <a href="#reviews" data-nav-mobile>Reviews</a>
+    <a href="#learning" data-nav-mobile>Certifications</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 class="hero-heading" data-reveal-text>
+          <span class="line"><span class="fade">I’m</span> Joshua, 6+ Years</span>
+          <span class="line"><span class="fade">in</span> Product Design,</span>
+          <span class="line"><span class="fade">building</span> <span class="brand-word">Dooinngs</span></span>
+        </h1>
+        <p class="hero-sub" data-reveal>
+          I’m passionate about designing and building products
+          that users want to open again, again and again
+        </p>
+
+        <div class="hero-cta" data-reveal>
+          <a href="#projects" class="btn btn-primary">
+            <span>View my work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#reviews" class="btn btn-ghost">What people say</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-card" id="heroCard">
+          <div class="hero-card-inner">
+            <div class="hero-card-photo">
+              <img src="assets/joshua.jpg" alt="Joshua Gavu" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
+            </div>
+
+            <div class="hero-badge hero-badge--status">
+              <span class="dot-pulse"></span>
+              Available for work
+            </div>
+            <div class="hero-badge hero-badge--location">
+              🇬🇭 Greater Accra, Ghana
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual-glow" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ BRANDS ============ -->
+  <section class="section brands" id="brands">
+    <div class="section-head" data-reveal>
+      <h2 class="section-title"><span class="dark">Brands &amp; Teams</span> <span class="muted">I’ve Worked</span> <span class="dark">With</span></h2>
+      <p class="section-sub">A selection of teams, startups and organizations <br>I’ve collaborated with over the years</p>
+    </div>
+
+    <div class="logo-grid" data-reveal-group>
+      <!-- Repeat this block for each logo. Replace the placeholder svg with an <img> tag. -->
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/zentech.png" alt="Zentech I.T Solutions"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/eatchat.png" alt="EatChat"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/gigmile.png" alt="Gigmile Technologies"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/yishipping.png" alt="Yi Shipping"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/dcl.png" alt="Datacontrol Limited"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/wnpg.png" alt="Women's Network for Peace Ghana"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/maoney.png" alt="Maoney"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/dooinngs.png" alt="Dooinngs"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/dab.png" alt="DAB Electronics"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/mylessonbuddy.png" alt="My Lesson Buddy Academy"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/awa.png" alt="Awa Roofing"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/transitionstar.png" alt="Transition Star"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/neuvillehomes.png" alt="Nueville Homes"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/archidesignconcepts.png" alt="ArchiDesign Concepts"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+      <div class="logo-slot"><span class="img-placeholder" data-placeholder-label="Logo"><img src="assets/brand-logos/molans.png" alt="Molans"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 9h18"/></svg></span></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section projects" id="projects">
+    <div class="section-head" data-reveal>
+      <h2 class="section-title"><span class="dark">Apps, Websites &amp; Projects</span> <span class="muted">I’ve Worked</span> <span class="dark">On</span></h2>
+    </div>
+
+    <div class="filter-tabs" data-reveal role="tablist" aria-label="Filter projects">
+      <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="filter-btn" data-filter="websites" role="tab" aria-selected="false">Websites</button>
+      <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false">Mobile Apps</button>
+      <button class="filter-btn" data-filter="webapps" role="tab" aria-selected="false">Web Apps</button>
+      <button class="filter-btn" data-filter="branding" role="tab" aria-selected="false">Branding</button>
+      <span class="filter-indicator" id="filterIndicator" aria-hidden="true"></span>
+    </div>
+
+    <div class="project-grid" id="projectGrid" data-reveal-group>
+      <article class="project-card" data-category="websites">
+        <div class="project-media">
+          <img src="assets/neuvillehomes-cover.png" alt="NeuVille Homes">
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Website</span>
+          <h3>Neuville Homes</h3>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="mobile">
+        <div class="project-media">
+          <img src="assets/dooinngs-cover.png" alt="Dooinngs">
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Mobile App</span>
+          <h3>Dooinngs</h3>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="webapps">
+        <div class="project-media">
+          <img src="assets/gigmile-cover.png" alt="Gigmile">
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Web App</span>
+          <h3>Gigmile</h3>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="branding">
+        <div class="project-media">
+          <img src="assets/dcl-cover.png" alt="Datacontrol Limited">
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Branding</span>
+          <h3>Datacontrol Limited</h3>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="section-head" data-reveal>
+      <h2 class="section-title"><span class="dark">What People say</span> <span class="muted">about Joshua</span></h2>
+      <p class="section-sub">Don’t take my word for it. Get to know what people I’ve worked with say about me</p>
+    </div>
+
+    <div class="reviews-track-wrap" data-reveal>
+      <div class="reviews-track" id="reviewsTrack">
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Lawal</h4>
+              <p>Senior Backend Developer, Travelia</p>
+            </div>
+          </div>
+          <p class="review-quote">Working with Joshua was seamless from kickoff to launch — thoughtful design decisions, fast iteration, and a real eye for detail.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Prince</h4>
+              <p>Founder, EatChat</p>
+            </div>
+          </div>
+          <p class="review-quote">Super intuitive process and easy to collaborate with. He took a vague idea and shaped it into a product that actually felt finished.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Aaron</h4>
+              <p>Head of Engineering, Gigmile Technologies</p>
+            </div>
+          </div>
+          <p class="review-quote">One of the most detail-oriented designers I’ve worked with. Every screen felt intentional, and he pushed back when it mattered.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Frank</h4>
+              <p>CEO, Yi Shipping</p>
+            </div>
+          </div>
+          <p class="review-quote">Great communicator and even better designer. Turnaround was quick without ever cutting corners on quality.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Benjamin</h4>
+              <p>Founder, Datacontrol Limited</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Pastor Suleman</h4>
+              <p>Director, Datacontrol Limited</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Diana</h4>
+              <p>Visionary Founder, Women's Network for Peace Ghana</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Gael</h4>
+              <p>CEO, Maoney</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Samuel</h4>
+              <p>Lead Product Designer, Maoney</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+         <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Bernice</h4>
+              <p>Founder & CEO, ArchiDesign Concepts</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <span class="review-avatar img-placeholder img-placeholder--round" data-placeholder-label="Photo"></span>
+            <div>
+              <h4>Newton</h4>
+              <p>Managing Director, Neuville Homes</p>
+            </div>
+          </div>
+          <p class="review-quote">Joshua brought structure to a messy brief and delivered something our users genuinely enjoy using every day.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="reviews-progress" aria-hidden="true"><i id="reviewsProgressBar"></i></div>
+  </section>
+
+  <!-- ============ LEARNING / CERTIFICATIONS ============ -->
+  <section class="section learning" id="learning">
+    <div class="section-head" data-reveal>
+      <h2 class="section-title"><span class="dark">Always</span> <span class="muted">Learning</span></h2>
+      <p class="section-sub">Certifications and courses from the journey so far</p>
+    </div>
+
+    <div class="cert-carousel" data-reveal>
+      <button class="cert-arrow cert-arrow--prev" id="certPrev" aria-label="Previous certificate">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <div class="cert-viewport">
+        <div class="cert-slides" id="certSlides">
+          <div class="cert-slide">
+            <div class="cert-card">
+              <img src="assets/cert-1.png" alt="Product School Certificate" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="cert-card">
+              <img src="assets/cert-2.png" alt="Product School Certificate" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="cert-card">
+              <img src="assets/cert-3.png" alt="Product School Certificate" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="cert-card">
+              <img src="assets/cert-4.png" alt="Product School Certificate" height="100%" width="100%">
+            </div>
+          </div>
+          <div class="cert-slide">
+            <div class="cert-card">
+              <img src="assets/cert-5.png" alt="Product School Certificate" height="100%" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="cert-arrow cert-arrow--next" id="certNext" aria-label="Next certificate">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <div class="cert-dots" id="certDots"></div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <a href="#top" class="footer-brand">Joshua <span class="muted">Gavu</span></a>
+    <p class="footer-tag">Built with passion🚀 & love❤️ <span class="brand-word">by Joshua Gavu</span></p>
+    <a href="#top" class="footer-back">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
