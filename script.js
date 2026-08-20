@@ -311,6 +311,33 @@
     carousel.addEventListener("mouseleave", startAutoplay);
   }
 
+  const certLightbox = document.getElementById("certLightbox");
+  const certLightboxImg = document.getElementById("certLightboxImg");
+  const certLightboxClose = document.getElementById("certLightboxClose");
+
+  document.querySelectorAll(".cert-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const img = card.querySelector("img");
+      if (!img) return; // no image dropped in yet
+      certLightboxImg.src = img.src;
+      certLightboxImg.alt = img.alt;
+      certLightbox.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+    });
+  });
+
+  const closeCertLightbox = () => {
+    certLightbox.classList.remove("is-open");
+    document.body.style.overflow = "";
+  };
+  certLightboxClose.addEventListener("click", closeCertLightbox);
+  certLightbox.addEventListener("click", (e) => {
+    if (e.target === certLightbox) closeCertLightbox();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeCertLightbox();
+  });
+
   /* ============================================================
      SMOOTH ANCHOR SCROLL for buttons without native href handling issues
   ============================================================ */

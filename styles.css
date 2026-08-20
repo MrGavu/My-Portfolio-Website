@@ -584,6 +584,9 @@ img{ max-width: 100%; display: block; }
   gap: 28px;
 }
 .project-card{
+  display: block;
+  text-decoration: none;
+  color: inherit;
   position: relative;
   border-radius: 28px;
   overflow: hidden;
@@ -764,6 +767,50 @@ img{ max-width: 100%; display: block; }
   width: 22px;
   border-radius: 5px;
 }
+
+.cert-card{ cursor: zoom-in; }
+
+.cert-lightbox{
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(20,20,20,.82);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .35s var(--ease);
+}
+.cert-lightbox.is-open{
+  opacity: 1;
+  pointer-events: auto;
+}
+.cert-lightbox img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  transform: scale(.94);
+  transition: transform .35s var(--ease);
+  box-shadow: 0 30px 80px rgba(0,0,0,.4);
+}
+.cert-lightbox.is-open img{ transform: scale(1); }
+.cert-lightbox-close{
+  position: absolute;
+  top: 24px; right: 28px;
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .3s var(--ease), transform .3s var(--ease);
+}
+.cert-lightbox-close:hover{ background: rgba(255,255,255,.24); transform: scale(1.08); }
 
 @media (max-width: 560px){
   .cert-carousel{ gap: 12px; }
