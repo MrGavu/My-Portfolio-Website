@@ -139,7 +139,9 @@
 
   const applyFilter = (value) => {
     projectCards.forEach((card) => {
-      const match = value === "all" || card.dataset.category === value;
+      const match = value === "all"
+        ? card.dataset.featured === "true"
+        : card.dataset.category === value;
       card.classList.toggle("is-hidden", !match);
     });
   };
@@ -156,6 +158,8 @@
       applyFilter(btn.dataset.filter);
     });
   });
+
+  applyFilter("all");
 
   const initIndicator = () => {
     const active = document.querySelector(".filter-btn.is-active");
