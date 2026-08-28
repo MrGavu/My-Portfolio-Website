@@ -818,6 +818,74 @@ img{ max-width: 100%; display: block; }
 }
 
 /* =========================================================
+   FIGMA & GITHUB CONTRIBUTIONS
+========================================================= */
+.stats-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.stats-card{
+  border-radius: 32px;
+  padding: 56px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 48px;
+  min-height: 500px;
+  transition: transform .5s var(--ease), box-shadow .5s var(--ease);
+}
+.stats-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 26px 50px rgba(20,20,20,.16);
+}
+.stats-card--dark{ background: var(--text); }
+.stats-card--light{ background: var(--card); }
+
+.stats-copy{ display: flex; flex-direction: column; gap: 10px; }
+.stats-number{
+  font-size: clamp(38px, 5.4vw, 60px);
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+.stats-card--dark .stats-number{ color: var(--white); }
+.stats-card--light .stats-number{ color: var(--text); }
+
+.stats-label{ font-size: 16px; font-weight: 500; }
+.stats-card--dark .stats-label{ color: rgba(255,255,255,.55); }
+.stats-card--light .stats-label{ color: var(--muted); }
+
+.stats-icon{
+  width: 250px;
+  height: 250px;
+  border-radius: 28px;
+  padding: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 40px rgba(20,20,20,.16);
+}
+.stats-card--dark .stats-icon{ background: var(--white); }
+.stats-card--light .stats-icon{ background: var(--text); }
+
+.stats-icon .img-placeholder{ background: transparent; }
+.stats-icon .img-placeholder::after{ display: none; }
+.stats-icon img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stats-card--dark .stats-icon .img-placeholder{ color: rgba(30,30,30,.3); }
+.stats-card--light .stats-icon .img-placeholder{ color: rgba(255,255,255,.5); }
+
+@media (max-width: 720px){
+  .stats-grid{ grid-template-columns: 1fr; }
+  .stats-card{ padding: 44px 28px; min-height: unset; }
+}
+
+/* =========================================================
    FOOTER
 ========================================================= */
 .footer{
