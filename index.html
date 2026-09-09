@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Joshua Gavu | Product Designer</title>
 <meta name="description" content="Joshua Gavu — Product Designer, 5+ years building products people love. Building Dooinngs.">
+
+<!-- Social share preview -->
+<meta property="og:title" content="Joshua Gavu — Product Designer, 5+ years building products people love. Building Dooinngs.">
+<meta property="og:description" content="Joshua Gavu, Product Designer, 5+ years building products people love. Building Dooinngs.">
+<meta property="og:image" content="https://www.joshuagavu.com/assets/portfolio-cover.jpg">
+<meta property="og:url" content="https://www.joshuagavu.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter/X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Joshua Gavu, Product Designer, 5+ years building products people love. Building Dooinngs.">
+<meta name="twitter:description" content="Joshua Gavu, Product Designer, 5+ years building products people love. Building Dooinngs.">
+<meta name="twitter:image" content="https://www.joshuagavu.com/assets/portfolio-cover.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
@@ -29,10 +43,11 @@
     </a>
 
     <nav class="nav-links" aria-label="Primary">
-      <a href="#top" class="nav-link is-active" data-nav>Portfolio</a>
+      <a href="#top" class="nav-link is-active" data-nav>Home</a>
       <a href="#projects" class="nav-link" data-nav>Projects</a>
       <a href="#reviews" class="nav-link" data-nav>Reviews</a>
       <a href="#learning" class="nav-link" data-nav>Certifications</a>
+      <a href="#stats" class="nav-link" data-nav>Contributions</a>
     </nav>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
@@ -41,10 +56,11 @@
   </div>
 
   <div class="nav-mobile" id="navMobile">
-    <a href="#top" data-nav-mobile>Portfolio</a>
+    <a href="#top" data-nav-mobile>Home</a>
     <a href="#projects" data-nav-mobile>Projects</a>
     <a href="#reviews" data-nav-mobile>Reviews</a>
     <a href="#learning" data-nav-mobile>Certifications</a>
+    <a href="#stats" data-nav-mobile>Contributions</a>
   </div>
 </header>
 
@@ -427,7 +443,7 @@
     </div>
 
     <div class="stats-grid" data-reveal-group>
-      <div class="stats-card stats-card--dark">
+      <a href="https://www.figma.com/@joshuagavu" target="_blank" rel="noopener noreferrer" class="stats-card stats-card--dark">
         <div class="stats-copy">
           <span class="stats-number">+14,700</span>
           <span class="stats-label">Figma Community Template Users</span>
@@ -435,17 +451,18 @@
         <div class="stats-icon">
           <img src="assets/figma.png" alt="Figma Icon">
         </div>
-      </div>
-
-      <div class="stats-card stats-card--light">
+      </a>
+      
+      <a href="https://github.com/MrGavu" target="_blank" rel="noopener noreferrer" class="stats-card stats-card--light">
         <div class="stats-copy">
           <span class="stats-number">+270</span>
           <span class="stats-label">GitHub Contributions</span>
         </div>
         <div class="stats-icon">
-          <img src="assets/github.png" alt="GitHub Icon">
+            <img src="assets/github.png" alt="GitHub Icon">
         </div>
-      </div>
+      </a>
+
     </div>
   </section>
 

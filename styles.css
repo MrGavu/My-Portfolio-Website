@@ -829,6 +829,9 @@ img{ max-width: 100%; display: block; }
   border-radius: 32px;
   padding: 56px 40px 48px;
   display: flex;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
