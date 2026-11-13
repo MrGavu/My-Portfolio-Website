@@ -1,12 +1,12 @@
 // Your WhatsApp number: country code first, no "+" or spaces
-const WHATSAPP = "233XXXXXXXXX";
+const WHATSAPP = "233202036170";
 
 const services = [
   {
     category: "Branding", name: "Logo Design", price: "GHS350",
     desc: "A custom logo built around your brand.",
     includes: ["Original concept, no templates", "Colour and one-colour versions", "Files for print and web"],
-    images: ["assets/logo/1.jpg", "assets/logo/2.jpg", "assets/logo/3.jpg"]
+    images: ["https://www.behance.net/gallery/100024505/Logofolio/modules/577144679", "assets/logo/2.jpg", "assets/logo/3.jpg"]
   },
   {
     category: "Branding", name: "Business Card Design", price: "GHS200",
