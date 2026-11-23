@@ -25,6 +25,22 @@ button{ font-family:inherit; }
 .top-back{ font-size:14px; font-weight:600; color:var(--muted); transition:color .3s var(--ease); }
 .top-back:hover{ color:var(--text); }
 
+.nav-brand{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -.01em;
+}
+
+.nav-avatar{
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
 /* intro */
 .intro{ max-width:720px; margin:0 auto; padding:56px var(--gutter) 40px; text-align:center; }
 .intro h1{ font-size:clamp(32px,5vw,52px); font-weight:800; letter-spacing:-.02em; line-height:1.1; }

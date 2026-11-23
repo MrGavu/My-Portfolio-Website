@@ -6,19 +6,31 @@ const services = [
     category: "Branding", name: "Logo Design", price: "GHS350",
     desc: "A custom logo built around your brand.",
     includes: ["Original concept, no templates", "Colour and one-colour versions", "Files for print and web"],
-    images: ["https://www.behance.net/gallery/100024505/Logofolio/modules/577144679", "assets/logo/2.jpg", "assets/logo/3.jpg"]
+    images: ["assets/logo-1.jpg", "assets/logo/2.jpg", "assets/logo/3.jpg"]
   },
   {
     category: "Branding", name: "Business Card Design", price: "GHS200",
     desc: "Clean, memorable business cards ready for print.",
     includes: ["Front and back layout", "Print-ready file with bleed", "Matched to your brand colours"],
-    images: ["assets/business-card/1.jpg", "assets/business-card/2.jpg", "assets/business-card/3.jpg"]
+    images: ["assets/dcl-bc.jpg", "assets/business-card/2.jpg", "assets/business-card/3.jpg"]
   },
   {
     category: "Branding", name: "Letterhead Design", price: "GHS200",
     desc: "Professional letterhead for official documents.",
     includes: ["Branded header and footer", "Print and digital versions", "Consistent with your logo"],
-    images: ["assets/letterhead/1.jpg", "assets/letterhead/2.jpg", "assets/letterhead/3.jpg"]
+    images: ["assets/letterhead-1.jpg", "assets/letterhead/2.jpg", "assets/letterhead/3.jpg"]
+  },
+  {
+    category: "Branding", name: "Custom Presentation Design", price: "GHS400",
+    desc: "Clean, professional slide decks for pitches, reports and talks.",
+    includes: ["Custom slide layouts", "Consistent with your brand", "Editable PowerPoint or Google Slides file"],
+    images: ["assets/presentation/1.jpg", "assets/presentation/2.jpg", "assets/presentation/3.jpg"]
+  },
+  {
+    category: "Branding", name: "3D Product Videos", price: "GHS800",
+    desc: "Polished 3D animated videos that show off your product.",
+    includes: ["Custom 3D product animation", "Ready for social media and ads", "HD video file delivered"],
+    images: ["assets/3d-video/1.jpg", "assets/3d-video/2.jpg", "assets/3d-video/3.jpg"]
   },
   {
     category: "Print", name: "Flyer Design", price: "GHS150",
@@ -33,7 +45,7 @@ const services = [
     images: ["assets/banner/1.jpg", "assets/banner/2.jpg", "assets/banner/3.jpg"]
   },
   {
-    category: "Print", name: "Sticker Design", price: "",   // empty price shows "Get a quote"
+    category: "Print", name: "Sticker Design", price: "GHS100",
     desc: "Custom stickers for packaging, products and branding.",
     includes: ["Any shape or size", "Cut line included", "Print-ready file"],
     images: ["assets/stickers/1.jpg", "assets/stickers/2.jpg", "assets/stickers/3.jpg"]
